@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import {TestComponent} from './test.component';
+import { TestComponent } from './test.component';
 import { Test1Component } from './test1.component';
 
 @NgModule({
