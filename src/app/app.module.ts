@@ -7,10 +7,11 @@ import { HelloComponent } from './hello.component';
 
 import { TestModule } from './test.module';
 import { TestService, TestService2 } from './test.service';
+import { TestDirective } from './test.directive';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ,TestModule],
-  declarations: [ AppComponent, HelloComponent],
+  declarations: [ AppComponent, HelloComponent, TestDirective],
   providers : [TestService,TestService2],
   bootstrap:    [ AppComponent ]
 })

@@ -9,8 +9,10 @@ import { TestService } from './test.service';
 export class AppComponent  {
  //name = 'Angular ' + VERSION.major;
   public name : string;
+  public cognome :string;
   constructor(private testService:TestService){
     this.name = this.testService.getMessage('Domenico');
+    this.cognome = this.testService.getCognome('Scorcia');
   }
 }
 

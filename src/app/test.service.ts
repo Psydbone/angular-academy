@@ -6,6 +6,9 @@ export class TestService {
   public getMessage(name: string): string {
     return 'Ciao ' + name;
   }
+  public getCognome(cognome:string):string{
+    return 'Il tuo cognome è ' + cognome;
+  }
 }
 
 @Injectable()
