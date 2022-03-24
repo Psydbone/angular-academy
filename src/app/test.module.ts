@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
-import {TestComponent} from './test1.component';
+import {TestComponent} from './test.component';
+import { Test1Component } from './test1.component';
 
 @NgModule({
-  declarations: [Test1Component],
-  exports : [Test1Component]
+  declarations: [TestComponent,Test1Component],
+  exports : [TestComponent,Test1Component]
 })
 
 export class TestModule{}
