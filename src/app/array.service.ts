@@ -10,7 +10,7 @@ export class ArrayService{
   }
 }
 
-class Person{
+export class Person{
   name :string;
   surname :string;
   temperature : number;
@@ -18,6 +18,7 @@ class Person{
      constructor(name: string, surname:string, temperature: number){
        this.name = name;
        this.surname = surname;
+       this.temperature=temperature;
      }
 
      getName(){

@@ -3,11 +3,9 @@ import { ArrayService, Person } from './array.service';
 
 @Component({
   selector: 'table-component',
-  templateUrl: `./table.component.html`,
-
-  styleUrls: ['esercizio.component.css'],
+  templateUrl: `./table.template.html`,
 })
-export class EsercizioComponent {
+export class TableComponent {
   data: Person[];
   constructor(private es: ArrayService) {
     this.data = this.es.getArray();
